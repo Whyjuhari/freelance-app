@@ -1,59 +1,167 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="200" alt="Laravel Logo">
 </p>
 
-## Tentang Freelance App
+<h1 align="center">Freelance App</h1>
 
-Aplikasi ini merupakan aplikasi yang digunakan untuk membantu management data seperti proyek, klien, tugas per proyek, keuangan, laporan dan AI Integration.
+<p align="center">
+    <strong>All-in-One Freelance Project Management & Tracking Platform</strong>
+</p>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<p align="center">
+    <a href="https://github.com/yourusername/freelancehub"><img src="https://img.shields.io/badge/version-1.0.0-blue" alt="Version"></a>
+    <a href="https://github.com/yourusername/freelancehub/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green" alt="License"></a>
+    <a href="https://laravel.com"><img src="https://img.shields.io/badge/Laravel-11.x-red" alt="Laravel"></a>
+    <a href="#"><img src="https://img.shields.io/badge/Tailwind%20CSS-3.x-blue" alt="Tailwind"></a>
+</p>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## 📋 Tentang Aplikasi
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+**FreelanceHub** adalah platform manajemen proyek dan pelacakan komprehensif yang dirancang khusus untuk membantu freelancer mengelola bisnis mereka dengan lebih efisien. Aplikasi ini mengintegrasikan AI untuk memberikan insights otomatis dan membantu pengambilan keputusan yang lebih baik.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### Visi
+Memberdayakan freelancer di Indonesia untuk mengelola proyek, klien, keuangan, dan waktu mereka dengan mudah melalui satu platform terpadu yang intuitif dan powerful.
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## ✨ Fitur Utama
 
-### Premium Partners
+### 📊 Dashboard Interaktif
+- Overview statistik real-time tentang projects, tasks, dan earnings
+- Widget revenue tracking dengan grafik visual
+- Quick stats: Total Projects, In Progress, Completed, Near Deadline
+- AI-powered insights dan rekomendasi
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+### 📁 Project Management
+- Kelola semua proyek dalam satu tempat
+- Track deadline, progress, dan status proyek
+- Assign tasks ke team members
+- Attachments dan file management
+- Project timeline visualization
 
-## Contributing
+### ✅ Task Management
+- **Kanban Board View**: Drag-drop tasks across columns (To Do, In Progress, Review, Completed)
+- **List View**: Detailed table view dengan filtering & sorting
+- Priority levels (High, Medium, Low)
+- Task descriptions dan due dates
+- Task progress tracking
+- Team collaboration features
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### 👥 Client Management
+- Kelola data klien lengkap (contact, email, phone, address)
+- Track communication history
+- Project history per klien
+- Client rating & feedback
 
-## Code of Conduct
+### 💰 Financial Management
+- Invoice generation & tracking
+- Income & expense monitoring
+- Payment status tracking (Paid, Pending, Overdue)
+- Financial reports & analytics
+- Tax calculation assistance
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### ⏱️ Time Tracking
+- Track billable hours per project/task
+- Automatic time logging
+- Timesheet management
+- Rate calculation untuk invoicing
 
-## Security Vulnerabilities
+### 📈 Reports & Analytics
+- Project performance metrics
+- Income trends analysis
+- Client profitability analysis
+- Time spent analysis
+- Comprehensive business reports (PDF export)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### 🤖 AI Integration
+- **Ask AI Feature**: Query tentang project status, deadlines, earnings
+- Predictive analytics untuk project completion
+- Automated task suggestions
+- Smart scheduling recommendations
 
-## License
+---
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## 🛠️ Tech Stack
+
+### Backend
+- **Framework**: Laravel 11.x
+- **Database**: MySQL/PostgreSQL
+- **Authentication**: Laravel Auth
+- **Job Queue**: Laravel Queue (Redis)
+- **API**: RESTful API
+
+### Frontend
+- **Tailwind CSS 3.x**: Responsive UI styling
+- **Chart.js**: Data visualization
+- **Blade Templates**: Server-side rendering
+- **Alpine.js**: Interactive components
+
+### Additional Tools
+- **Composer**: Dependency management
+- **NPM/Yarn**: Asset compilation
+- **Laravel Vite**: Modern asset bundling
+
+---
+
+## 🚀 Instalasi & Setup
+
+### Prerequisites
+- PHP 8.2+
+- Composer
+- Node.js & NPM
+- MySQL 8.0+ atau PostgreSQL 13+
+
+### Langkah Instalasi
+
+1. **Clone Repository**
+```bash
+   git clone https://github.com/yourusername/freelancehub.git
+   cd freelancehub
+```
+
+2. **Install Dependencies**
+```bash
+   composer install
+   npm install
+```
+
+3. **Setup Environment**
+```bash
+   cp .env.example .env
+   php artisan key:generate
+```
+
+4. **Database Configuration**
+   Update `.env` dengan database credentials:
+```env
+   DB_CONNECTION=mysql
+   DB_HOST=127.0.0.1
+   DB_PORT=3306
+   DB_DATABASE=freelance_hub
+   DB_USERNAME=root
+   DB_PASSWORD=
+```
+
+5. **Migration & Seeding**
+```bash
+   php artisan migrate
+   php artisan db:seed
+```
+
+6. **Build Assets**
+```bash
+   npm run dev     # Development
+   npm run build   # Production
+```
+
+7. **Run Application**
+```bash
+   php artisan serve
+```
+   Akses di `http://localhost:8000`
+
+---
+
+## 📁 Struktur Project
